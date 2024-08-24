@@ -1,6 +1,6 @@
 # CoinFlip 
 
-A decentralized application (DApp) for flipping a coin on the Ethereum blockchain. Users can connect their MetaMask wallet, place a bet, and flip a coin to win or lose Ether.
+A CoinFlip project is for flipping a coin on the Ethereum blockchain. Users can connect their MetaMask wallet, place a bet, and flip a coin to win or lose Ether.
 
 ## Table of Contents
 Overview
@@ -9,9 +9,7 @@ Installation
 Usage
 Deployment
 Screenshots
-License
 
-In the project directory, you can run:
 
 ### `Overview`
 
@@ -26,8 +24,8 @@ View transaction details on Etherscan
 
 ### `Installation`
 
-git clone https://github.com/yourusername/coinflip.git
-cd coinflip
+git clone https://github.com/yourusername/coinflip.git ,
+cd coinflip ,
 npm install
 
 ### `Usage`
@@ -47,8 +45,9 @@ Click on the coin image to flip the coin and see if you win or lose.
 
 ### `Deployment`
 
-The application is deployed at: Deployment Link 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application is deployed at: [Deployment Link ](https://coinflip-chi-cyan.vercel.app/)
+
+** To learn React, check out the [React documentation](https://reactjs.org/).**
 
 ### `Screenshots`
 
