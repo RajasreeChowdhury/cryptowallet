@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# CoinFlip 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A decentralized application (DApp) for flipping a coin on the Ethereum blockchain. Users can connect their MetaMask wallet, place a bet, and flip a coin to win or lose Ether.
 
-## Available Scripts
+## Table of Contents
+Overview
+Features
+Installation
+Usage
+Deployment
+Screenshots
+License
 
 In the project directory, you can run:
 
-### `npm start`
+### `Overview`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CoinFlip is a simple blockchain-based game where users can bet Ether on the outcome of a coin flip. If the user wins, they receive double their bet amount. The application is built with React and uses Ethereum smart contracts for transaction handling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Features`
 
-### `npm test`
+Connect wallet using MetaMask
+Place bets in Ether
+Flip a coin to win or lose
+View transaction details on Etherscan
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Installation`
 
-### `npm run build`
+git clone https://github.com/yourusername/coinflip.git
+cd coinflip
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Usage`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the Development Server:
+bash
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open the Application:
+Open your browser and navigate to http://localhost:3000 to access the CoinFlip.
+Connect Wallet:
+Click on "Connect Wallet" to connect your MetaMask wallet.
+Place a Bet:
+Enter the amount of Ether you want to bet and select "Heads" or "Tails."
+Flip the Coin:
+Click on the coin image to flip the coin and see if you win or lose.
 
-### `npm run eject`
+### `Deployment`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
+The application is deployed at: Deployment Link 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### `Screenshots`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Initial Screen - Add Wallet:**
 
-### Analyzing the Bundle Size
+   ![Initial Screen - Add Wallet](public/screenshots/addwallet.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **Connect with MetaMask:**
 
-### Making a Progressive Web App
+   ![Connect with MetaMask](public/screenshots/connectwithmetamask.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **Flip a Coin:**
 
-### Advanced Configuration
+   ![Flip a Coin](public/screenshots/flipcoin.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. **Win or Loss Result:**
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ![Win or Loss Result](public/screenshots/winorloss.png)
