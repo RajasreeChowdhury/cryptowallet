@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\cryptowallet\\cryptowallet\\hardhat\\contracts\\CoinFlip.sol": {
+      "lastModificationDate": 1724520635161,
+      "contentHash": "e42ffc61d1053c13c66ba0e6d8aeae8e",
+      "sourceName": "contracts/CoinFlip.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CoinFlip"
+      ]
+    }
+  }
+}

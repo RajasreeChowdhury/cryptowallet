@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { ChakraProvider, Box } from '@chakra-ui/react';
+import { WalletProvider, useWallet } from './contexts/WalletContextProvider';
+import ConnectWallet from './components/ConnectWallet';
+import CoinFlip from './components/CoinFlip';
+
+const AppContent = () => {
+  const { address } = useWallet();
+
+  return (
+    <Box minHeight="100vh" display="flex" alignItems="center" justifyContent="center" bg="gray.100">
+      {!address ? <ConnectWallet /> : <CoinFlip />}
+    </Box>
+  );
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider>
+      <WalletProvider>
+        <AppContent />
+      </WalletProvider>
+    </ChakraProvider>
   );
 }
 
