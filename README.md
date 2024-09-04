@@ -22,6 +22,16 @@ Place bets in Ether
 Flip a coin to win or lose
 View transaction details on Etherscan
 
+### Technologies Used
+
+- **React**: For building the user interface.
+- **Chakra UI**: For styling and UI components.
+- **Ethers.js**: For interacting with the Ethereum blockchain.
+- **Hardhat**: For smart contract development and deployment.
+- **MetaMask**: For wallet connection and transaction handling.
+- **Infura**: For connecting to the Ethereum network.
+- **Solidity**: For writing smart contracts.
+
 ### `Installation`
 
 git clone https://github.com/yourusername/coinflip.git ,
