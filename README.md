@@ -22,7 +22,7 @@ Place bets in Ether
 Flip a coin to win or lose
 View transaction details on Etherscan
 
-### Technologies Used
+### `Technologies Used`
 
 - **React**: For building the user interface.
 - **Chakra UI**: For styling and UI components.
